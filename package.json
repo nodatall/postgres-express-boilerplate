@@ -1,0 +1,23 @@
+{
+  "name": "start-again",
+  "version": "1.0.0",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "db-migrate": "^0.11.5",
+    "db-migrate-pg": "^0.5.0",
+    "dotenv": "^6.2.0",
+    "eslint": "^6.6.0",
+    "express": "^4.16.4",
+    "mocha": "^6.2.2",
+    "pg-promise": "^8.5.5"
+  },
+  "scripts": {
+    "start": "node ./scripts/start",
+    "start:dev": "nodemon ./scripts/start",
+    "db:create": "./scripts/db-create",
+    "db:drop": "./scripts/db-drop",
+    "db:migrate": "./scripts/db-migrate",
+    "db:setup": "./scripts/db-setup",
+    "test": "mocha"
+  }
+}
